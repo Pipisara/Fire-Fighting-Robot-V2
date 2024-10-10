@@ -8,7 +8,9 @@
    It includes LEDs for status indication and a water pump system to extinguish flames. 
    The robot can move forward, backward, and turn, all controlled remotely, while the water pump activates when fire is detected.
 
-  Author: Pipisara Chandrabhanu
+    Authors : Pipisara Chandrabhanu
+            : Oshan Kavinda
+            : Amindu Prabshwara
 */
 
 
