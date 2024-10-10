@@ -1,16 +1,14 @@
+
 /*
-  Fire-Fighting Robot and Remote Control with Camera
+  Remote Control for Fire-Fighting Robot
 
   THIS CODE FOR ARDUIONO NANO in REMOTE
 
-  This code controls a fire-fighting robot equipped with a remote controller using nRF24L01 for wireless communication.
-   The robot features servos for camera and nozzle movement, motors for mobility, and sensors for fire detection. 
-   It includes LEDs for status indication and a water pump system to extinguish flames. 
-   The robot can move forward, backward, and turn, all controlled remotely, while the water pump activates when fire is detected.
+
+  This code is designed for controlling a fire-fighting robot via an nRF24L01 wireless module. The remote has switches to control the robot's movements (forward, backward, left, right), servo motors for camera and nozzle movement, a pump activation switch, and an LED for status indication. It sends the corresponding control signals to the robot based on the input from the switches.
 
   Author: Pipisara Chandrabhanu
 */
-
 
 #include <SPI.h>       // Include SPI library
 #include <nRF24L01.h>  // Include nRF24L01 library
