@@ -7,7 +7,9 @@
 
   This code is designed for controlling a fire-fighting robot via an nRF24L01 wireless module. The remote has switches to control the robot's movements (forward, backward, left, right), servo motors for camera and nozzle movement, a pump activation switch, and an LED for status indication. It sends the corresponding control signals to the robot based on the input from the switches.
 
-  Author: Pipisara Chandrabhanu
+    Authors : Pipisara Chandrabhanu
+            : Oshan Kavinda
+            : Amindu Prabshwara
 */
 
 #include <SPI.h>       // Include SPI library
